@@ -2,8 +2,8 @@
 int main(void) 
 {
     int glass = 91;
+    printf("猜数字请勿输入字母哦杂鱼~不然人家报错了\n");
     while (glass != 0) {
-        printf("猜数字");
         scanf("%d", &glass);
         if (glass > 91){
             printf("太大了~杂鱼~\n");
